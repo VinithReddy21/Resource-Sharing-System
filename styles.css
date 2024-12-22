@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    background: #1a1a1a; /* Dark gray */
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); /* Golden glow */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ffd700; /* Golden border */
+}
+
+/* Header */
+header {
+    background-color: #ffd700; /* Golden background */
+    color: #000; /* Black text */
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+}
+
+.form-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ffd700; /* Golden border */
+    border-radius: 5px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #fff; /* White border on focus */
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000; /* Black text */
+    background-color: #ffd700; /* Golden background */
+    border: 2px solid #ffd700; /* Golden border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Golden text */
+    transform: scale(1.1); /* Slightly enlarge button */
+    border-color: #fff; /* White border */
+}
+
+/* Resource List */
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ffd700; /* Golden text */
+    text-align: center;
+}
+
+.resource-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333; /* Darker gray */
+    border: 1px solid #ffd700; /* Golden border */
+    border-radius: 5px;
+    color: #ffd700; /* Golden text */
+    transition: background-color 0.3s;
+}
+
+.resource-list li:hover {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1a1a1a; /* Dark gray */
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #ffd700; /* Golden text */
+}
